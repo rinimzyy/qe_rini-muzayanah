@@ -2,10 +2,10 @@
 
 ## Software Testing as a Career Path
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.
-Mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
 
 Skill yang diperlukan untuk menjadi software tester:
+
 Non-Technical
 - Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
 - Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.

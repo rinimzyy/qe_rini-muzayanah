@@ -7,6 +7,7 @@ Definisi of software testing
 - Memastikan sistem itu dalam kondisi maksimal
 
 Seberapa penting software testing? 
+
 Software testing penting dilakukan agar nantinya produk yang dibangun dapat diproduksi secara maksimal. Adapun tujuan dari software testing adalah sebagai berikut:
 - Menghindari kejadian yang dapat merugikan pengguna.
 - Menemukan cacat dengan tepat untuk menghindasi kesalahan sistem.
