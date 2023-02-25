@@ -1,46 +1,35 @@
-# Section 2
+# Sec 4
 
-## Software Testing as a Career Path
+## Testing Documentation (Test Scenario – Test Case – dll)
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Test Scenario & Test Case
+1. Test Scenario
+- Test scenario memberikan ide apa yang harus diuji
+- Test scenario merupakan hish-level test case
 
-Skill yang diperlukan untuk menjadi software tester:
+Contoh test scenario:
+- Cek menu login secara fungsional
+- Cek tombol forgot email apakah berfungsi
+- Cek fitur create new account secara fungsional
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+2. Test Case
+- Test case terdiri dari tahapan eksekusi positif dan tahapan eksekusi negatif dari test skenario
+- Test case memiliki prasyarat, langkah, hasil yang diharapkan, status, dan hasil aktual.
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
+Contoh test case:
+Test skenario: Menguji fitur login secara functional
+ 1) masukkan email dan password yang valid
+ 2) masukkan email valid dan password invalid
+ 3) masukkan email invalid dan password valid
+ 4) masukkan email dan password yang invalid
 
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
+Note:
+- Test scenario menjawab: "Apa yang harus kita uji"
+- Test case menjawab: "bagaimana kita menguji"
 
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
-
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
-
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
-
+Lighthouse
+- Lighthouse adalah alat otomatis yang bersifat open source untuk meningkatkan kualitas halaman web. Anda dapat menjalankannya di halaman web mana pun, publik atau membutuhkan otentikasi. Ini memiliki audit untuk kinerja, aksesibilitas, aplikasi web progresif, SEO, dan banyak lagi.
+- Anda dapat menjalankan Lighthouse di Chrome DevTools, dari baris perintah, atau sebagai modul Node. 
+- Anda memberikan Lighthouse sebuah URL untuk diaudit, Lighthouse menjalankan serangkaian audit terhadap halaman tersebut, dan kemudian menghasilkan laporan tentang seberapa baik performa halaman tersebut. 
+- Dari situ, gunakan audit yang gagal sebagai indikator tentang cara meningkatkan halaman. 
+- Setiap audit memiliki dokumen referensi yang menjelaskan mengapa audit itu penting, serta cara memperbaikinya.
