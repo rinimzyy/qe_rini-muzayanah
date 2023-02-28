@@ -1,57 +1,31 @@
-## Section 6
+## Sec 5 
 
-# Tracking Management Tools
+# Test Case Management Tool
 
-JIRA
-- Jira adalah alat bantu yang bertujuan untuk pelacakan bugs, pelacakan issue, dan management proyek
+Apa itu test case management tools?
+Test case management t merupakan tools yang digunakan untuk menyimpan banyak test case dokumen.
 
-Kelebihan Jira
-- Jira memiliki 2 metode yaitu Scum dan Kanban. Hal tersebut memudahkan developer untuk melakukan brainstorming. Fitur cukup intuitif sehingga cocok untuk melakukan kolaborasi dalam tim.
-- Anggota tim dapat mengetahui masalah yang dimiliki oleh anggota tim lainnya.
-- Memiliki fitur roadmap, dapat membantu anggota tim untuk mengetahui gamparan utuk job yang akan dilakukan kedepannya.
-- Melalui roadmap team leader dapat memiliki kontrol penuh terhadap berbagai pekerjaan yang dilakukan. Team leader dapat melihat gambaran projek secara utuh sehingga mempermudah pengambilan keputusan.
-- Dapat dihubungkan dengan aplikasi yang lain.
+Mengapa perlu menggunakan test case management tools?
+1. Plan and estimate
+Test plan dapat didefinisikan sebagai dokumen yang menjelaskan fitur yang akan diuji, fitur yang tidak akan diuji, pendekatan, sumber daya, jadwal kegiatan pengujian dimaksud. Test case management tools akan memudahkan quality engineer dalam memperkirakan usaha apa yang dibutuhkan untuk test.
+2. Monitoring and controlling
+Monitoring adalah sebuah proses mengumpulkan, merekam, dan melaporkan informasi mengenai kegiatan projek yang harus diketahui oleh project manager dan skateholder. Penggunaan tools akan membantu mengontrol proses dengan menggunakan data dari kegiatan monitoring untuk mendapatkan actual performance untuk performance yang telah direncanakan.
+3. Reporting and Integrate with another tools
+Test case management dapat menghasilkan sebuah laporan. Beberapa test case management tools yang dapat diintegrasikan dengan tools yang lain antara lain JIRA, Pivotal, Jenkins, Travis Cl
 
-Create New Project
-1. Klick burron dropdown di sebelah kiri atas dan klik new project
-2. Pilih scum sebagai metode, kemudian masukkan nama project dan click button create
+Macam-macam test case management tools:
+Testrail, Test Link, Zephyr, qTest, PractiTest, TcLab
 
-Panel dalam jira
-- TODO, berisi panel story yang akan dikerjakan dan sudah diprioritaskan saat planning. Story yang ditempatkan paling atas menandakan bahwa story tersebut merupakan prioritas utama.
-- In Progress, berisi story yang sedang dikerjakan oleh software engineer
-- Finish, berisi story yang sudah dikerjakan oleh para software engineer, namun belum siap untuk tahap testing
-- Deliver, berisi story yang siap memasuki tahap testing oleh para qe
-- Need fix, berisi hasil proses testing yang tidak lolos kriteria oleh team development.
-- Done, berisi fitur-fitur yang sudah lolos dari criteria testing pleh development team
-
-Create issues
-- Issue pada jira akan melacak masalah yang mendasari projek ataupun bug
-
-7 point penting for creating issue
-- Project
-- Issue type
-- Reporter
-- Description
-- Priority
-- Assignee
-- Sprint
-
-Issue type:
-- Story, digunakan untuk membuat fitur baru
-- Task, melakukan perincian tugas-tugas yang akan dikerjakan
-- Bug, digunakan jika terjadi penemuan bug saat proses testing oleh quality engineer
-- Epic, untuk melakukan pengelompokan task
-
-
-- Reporter ditentukan berdasarkan siapa yang membuat tugas tersebut
-- Description, menuliskan deskripsi dengan jelas menggunakan format yang sama dengan dituliskan pada privotal tracker
-
-Kondisi deskription:
-- Acceptance criteria, jika fitur yang dibuat sudah sesuai dengan acceptance kriteria yang ditentukan oleh development team
-- Test implementation, membuat dokumentasi setelah melakukan proses testing (test scenario)
-- Priority, menentukan priority berdasarkan dari tingkat kesulitan sebuah task atau issue tersebut
-- Assignee, menentukan assignee berdasarkan dari orang yang akan bertanggung jawab mengerjakan tugas tersebut
-- Sprint, menentukan sprint berdasarkan dari ruang waktu pengerjaan sebuah task atau issue (1/2 minggu_
-
-Fase pada jira
-Todo - in progress - finish - deliver - need fix - (kembali ke in progress jika terdapat bug) - done
+How to use testrail:
+1. Open testrail, sign in
+2. Membuat test projek management
+   Test project: Your project name -> Test Project
+   Click "Add Project" di sebelah kanan menu
+3. Isi semua bidang wajib.
+4. Milestone (Apa itu milestones?)
+   - Milestone: Nomor iterasi perencanaan sprint Anda.
+5. Membuat test plan
+5. Membuat test run
+6. Membuat test case dan tambahkan ke test plan
+7. Eksekusi test case
+8. Dihasilkan test report
