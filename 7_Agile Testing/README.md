@@ -1,46 +1,65 @@
-# Section 2
+## Section 7
 
-## Software Testing as a Career Path
+# Agile Testing
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Definition of SLDC (Software Development Life Circle)
 
-Skill yang diperlukan untuk menjadi software tester:
+SLDC adalah proses dalam sebuah sotfware industri berupa design, pengembangan, dan pengujian software.
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+Prosesnya antara lain:
+Requirements Gathering -> Design, Development(Code) -> Testing -> Deployment -> Maintenance
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
+1. Reqruiment Gathering
+- Mengumpulkan kebutuhan bisnis
+- Membuat diagram proses
+- Melakukan analisis detail
 
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
+2. Design
+- Mendesign infrastriktur IT
+- Mendesign model sistem
 
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
+3. Development
+- Mengembangkan infrastruktur IT
+- Mengembangkan database dan kode
 
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
+4. Testing
+- Menulis test case
+- Mengeksekusi test case
 
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
+5. Deployment
+- Sistem dideploy ke lingkungan kehidupan nyata (klien) di mana pengguna sebenarnya mulai mengoperasikan sistem.
 
+6. Maintenance
+- Mendukung sistem pengguna
+- Sistem maintenance, kegiatan untuk memonitor dan memelihara fasilitas dengan merancang, mengatur, menangani, dan memeriksa pekerjaan.
+- Perubahan sistem dan pengaturan
+
+
+Agile Testing Manifesto
+- Testing is always behind
+- Automation is even firther behind that
+- Testers can't work until development is done
+- There is preasure at the end of sprint
+- There is blame around bugs (it's his fault ect)
+
+Agile testing pada dasarnya pola pikir yang berbeda jika dibandingkan dengan tradisional testing.
+
+5 kunci testing manifesto:
+a.	Testing is an activity, not a phase. Proses testing dilakukan beriringan dengan proses development. Sebuah pengujian biasanya dilakukan berdampingan dengan aktivitas lain seperti coding, pembuatan dokumentasi dan aktivitas lainnya.
+b.	Prevent bugs rather than finding bugs. Seabgai seorang quality engineer, akan lebih baik jika kita fokus dalam mencegah munculnya bug daripada menemukan bug. Hal ini dapat dilakukan dengan menganlisis bagaimana bug bisa muncul.
+c.	Don't be a checker, be a tester. Memahami kebutuhan user dan memberikan feedback terhadap apa yang sedang diuji. 
+d.	Don't try to break a system, instead help build the best possible system. Fokuskan tujuan dari pembuatan sistem, yaitu membuat sistem yang berkualitas dan sesuai dengan kebutuhan pengguna. Posisikan diri sebagai user dan menilai dari perspektif user dalam memberikan feedback kepada developer.
+e.	The whole team is responsible for quality, not just the tester. Menjamin kualitas sistem merupakan tanggung jawab dari seluruh anggota tim. Beban dari kualitas produk tidak seharusnya dibebankan kepada satu orang saja, entah itu kepada tim developer, quality engineer, ataupun yang lainnya.
+
+Testing Pyramid
+- Unit test (Paling bawah)
+- Integration (Tengah)
+- UI (Paling atas)
+
+Note:
+- Seluruh tim jelas tentang apa yang harus diuji untuk setiap cerita dan fitur sebelum pengkodean apa pun dimulai.
+- Sebelum berdiskusi mengenai solusi, pastikan kamu paham mengenai siapa dan mengapa dibalik kebutuhan apapun.
+- Bertanya, kemudian menjawab pertanyaan "Bagaimana kita memulai test?" saat berdiskusi mengenai user story
+- Semua anggota dalam tim mengetahui bagaimana menjalankan automated test dan membaca hasil test.
+- Kamu tidak memiliki database bus karena kamu memperbaiki bugs sesaat setelah kamu menemukannya, alih-alih mencatatnya
+- Timmu memiliki arah dalam mengukur kualitas, yang mana yang digunakan untuk mengidentifikasi jika proses testing ada pada kamu.
