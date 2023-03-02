@@ -45,11 +45,11 @@ Agile Testing Manifesto
 Agile testing pada dasarnya pola pikir yang berbeda jika dibandingkan dengan tradisional testing.
 
 5 kunci testing manifesto:
-a.	Testing is an activity, not a phase. Proses testing dilakukan beriringan dengan proses development. Sebuah pengujian biasanya dilakukan berdampingan dengan aktivitas lain seperti coding, pembuatan dokumentasi dan aktivitas lainnya.
-b.	Prevent bugs rather than finding bugs. Seabgai seorang quality engineer, akan lebih baik jika kita fokus dalam mencegah munculnya bug daripada menemukan bug. Hal ini dapat dilakukan dengan menganlisis bagaimana bug bisa muncul.
-c.	Don't be a checker, be a tester. Memahami kebutuhan user dan memberikan feedback terhadap apa yang sedang diuji. 
-d.	Don't try to break a system, instead help build the best possible system. Fokuskan tujuan dari pembuatan sistem, yaitu membuat sistem yang berkualitas dan sesuai dengan kebutuhan pengguna. Posisikan diri sebagai user dan menilai dari perspektif user dalam memberikan feedback kepada developer.
-e.	The whole team is responsible for quality, not just the tester. Menjamin kualitas sistem merupakan tanggung jawab dari seluruh anggota tim. Beban dari kualitas produk tidak seharusnya dibebankan kepada satu orang saja, entah itu kepada tim developer, quality engineer, ataupun yang lainnya.
+- Testing is an activity, not a phase. Proses testing dilakukan beriringan dengan proses development. Sebuah pengujian biasanya dilakukan berdampingan dengan aktivitas lain seperti coding, pembuatan dokumentasi dan aktivitas lainnya.
+- Prevent bugs rather than finding bugs. Seabgai seorang quality engineer, akan lebih baik jika kita fokus dalam mencegah munculnya bug daripada menemukan bug. Hal ini dapat dilakukan dengan menganlisis bagaimana bug bisa muncul.
+- Don't be a checker, be a tester. Memahami kebutuhan user dan memberikan feedback terhadap apa yang sedang diuji. 
+- Don't try to break a system, instead help build the best possible system. Fokuskan tujuan dari pembuatan sistem, yaitu membuat sistem yang berkualitas dan sesuai dengan kebutuhan pengguna. Posisikan diri sebagai user dan menilai dari perspektif user dalam memberikan feedback kepada developer.
+- The whole team is responsible for quality, not just the tester. Menjamin kualitas sistem merupakan tanggung jawab dari seluruh anggota tim. Beban dari kualitas produk tidak seharusnya dibebankan kepada satu orang saja, entah itu kepada tim developer, quality engineer, ataupun yang lainnya.
 
 Testing Pyramid
 - Unit test (Paling bawah)
