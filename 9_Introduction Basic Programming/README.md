@@ -1,46 +1,38 @@
-# Section 2
+# Section 9
 
-## Software Testing as a Career Path
+## Introduction of Basic Programming
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+1. TYPE DATA
+a. Integer, untuk penulisan angka/bilangan bulat.
+b. Float, untuk bilangan desimal.
+c. Double, untuk bilangan desimal (memiliki ukuran lebih besar dari float).
+d. Boolean, tipe data bernilai true/false saja.
+e. Char, untuk karakter/huruf.
+f. String, untuk penulisan kata.
 
-Skill yang diperlukan untuk menjadi software tester:
+2. Array
+- Array adalah variabel yang mempunyai indeks sehingga dapat menyimpan sejumlah data yang bertipe sama.
+- Array sering digunakan untuk operasi matriks.
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+3. Operator
+a. Assignmen (=)
+b. Aritmatika (+, -, *, /, %)
+c. Unary (+,-, ++, --, !)
+d. Equality dan relational (==, !=, >, >=, <, <=)
+e. Conditional (&&, ||)
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
+4. Input Output
+- Input dapat berasal dari keyboard, dile, jaringan, maupun program).
+- Input merupakan "Character stream" (Reader & writer)
+- Output berasal dari console, file, jaringan, program.
+- Output merupakan "Byte stream" (Input stream & output stream)
 
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
+5. Percabangan
+- If, hanya memiliki satu pilihan. Artinya, pilihan di dalam IF hanya akan dikerjakan kalau kondisinya benar.
+- If - then -else, memiliki pilihan alternatif kalau kondisinya salah.
+- Switch -case, bentuk lain dari IF/ELSE/IF. Bedanya, percabangan ini menggunakan kata kunci switch dan case.
 
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
-
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
-
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
-
+6. Looping
+- For, digunakan ketika ingin mengenkseskusi perintah program yang sama dengan jumlah proses perulangan yang sudah diketahui dengan mengacu pada kondisi yang ditetapkan.
+- While, digunakan ketika kita belum mengetahui jumlah proses perulangan. Banyaknya perulangan ditentukan dari proses inisialisasi dan kondisi yang didefinisikan.
+- Do-while, pada perulangan Do While perulangan dilakukan terlebih dahulu minimal sekali baru kemudian setelah itu dicek kondisinya.
