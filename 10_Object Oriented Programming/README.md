@@ -1,46 +1,62 @@
-# Section 2
+# Section 10
 
-## Software Testing as a Career Path
+## Object Oriented Programming
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Apa itu OOP?
+- OOP merupakan sebuah paradigma atau sebuah teknik pemrograman yang berorientasikan objek.
+- Setiap fungsi dan variable dibungkus dalam sebuah class yang dapat saling berinteraksi sehingga membentuk sebuah program.
+- OOP bertujuan untuk memudahkan pengembangan sebuah program.
+- Memiliki objek dan fungsi yang dibungkus dalam sebuah class.
+- Keduanya dapat saling berinteraksi sehingga membentuk sebuah program.
 
-Skill yang diperlukan untuk menjadi software tester:
+Mengapa OOP?
+- Meminimalisir program dan membuatnya terasa rapi.
+- Mempercepat pembuatan aplikasi.
+- Mempermudah maintenance.
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+Konponen-komponen OOP:
+1. Class
+- Bertugas untuk mengumpulkan prosedur atau fungsi dan variable dalam satu tempat.
+- Blueprint atau cetakan dalam sebuah objek.
+- Syntax penulisan:
+public Class NamaClass {}
+- Penulisan nama kelas menggunakan Pascal, dimana setiap kata diawali dengan huruf kapitan dan tanpa menggunakan spasi.
+- Berisi kumpulan beberapa fungsi variable.
+- Class mendefinisikan sebuah tipe dari objek.
+- Sebuah class mempunyai anggota yang terdiri dari atribut dan method.
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
+2. Object
+- Sebuah variable instant yang merupakan wujud dari class.
+- Object digambarkan dengan sebuah variable.
+- Keyword “new” digunakan untuk melakukan instansiasi/ membuat sebuah object baru.
+- Contoh:
+Motor objectMotor = new Motor();
 
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
+Motor (kata pertama), meripakan sebuah inisialisasi nama objek.
+objectMototr (kata kedua) merupakan deklas=rasi nama objek.
+Motor(), meripakan instantion object.
 
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
+3. Attribute
+- Bagian dari sebuah class.
+- Bisa disebut sebagai properties dari sebuah class.
+- Variable, ditulis dengan lowercase. Contoh int speed, int listCar.
 
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
+4. Method
+- Method menjelasakan bagaimana suatu attribut beraksi.
+- Berupa tingkah laku atau benefial. 
+- Terdiri dari variable dan acces modifier.
 
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
+5. Inheritance
+- Hubungan antara dua objek atau lebih.
+- Tergdapat object utama yang mewariskan sifat, atribut, maupun method kepada object lain.
+- Object diwariskan dengan keyword "extends".
+
+6. Access Modifier
+- Modifier merupakan bentuk pengimplementasian konsep enkapsulasi.
+- Dengan adanya modifier maka class, interface, method, dan variabel akan terkena suatu
+dampak tertentu.
+a) Default, diwarisi subclass di paket yang sama dengan superclassnya. Dapat diakses oleh methodmethod di class-class yang sepaket.
+b) Public, diwarisi oleh semua subclassnya. Dapat diakses dimanapun.
+c) Protected, Diwarisi oleh semua subclassnya. Dapat diakses oleh method-method di classclass yang sepaket.
+d) Private, Tidak diwarisi oleh subclassnya. Tidak dapat diakses oleh class lain.
 
