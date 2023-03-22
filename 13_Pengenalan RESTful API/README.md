@@ -1,46 +1,31 @@
-# Section 2
+# Section 13
 
-## Software Testing as a Career Path
+## Pengenalan RESTful API
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Basic of API Testing
+1. API & REST API
+a. API
+API adalah singkatan dari "Applicatiom Programming Interface". API merupakan Apa sih API itu?
+API adalah singkatan dari Application Programming Interface. API sendiri merupakan antarmuka yang dapat menghubungkan satu aplikasi dengan aplikasi lainnya.- API memungkinkan komunikasi dan pertukaran data antara 2 atau lebih software/sistem yang terpisah.
 
-Skill yang diperlukan untuk menjadi software tester:
+API workflow:
+Client melakukan request-> API menyampaikan request ke system-> System memberikan respon melalui API->API memberikan respon kepada client.
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+b. REST API
+- REST API singkatan dari "Representational State Transfer". API RESTful adalah antarmuka yang digunakan oleh dua sistem komputer untuk bertukar informasi secara aman melalui internet dengan menggunakan HTTP method.
+- HTTP method:
+  a) Get: Membaca data
+  b) Put: Membuat/Mengganti data
+  c) Post: Membuat data baru
+  d) Delete: Menghapus data yang ada
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
-
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
-
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
-
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
-
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
+- Component REST API: Method, URL (base URL + path), header, body.
+- HTTP Rsponse Code:
+  a) 200: OK, status response code indicates that the request has succeeded.
+  b) 201: Created,  the request has succeeded and has led to the creation of a resource.
+  c) 400 Bad Request, the server cannot or will not process the request due to something that is perceived to be a client error.
+  d) 404: Not Found, the server cannot find the requested resource.
+  a) 401: Unauthorized, the client request has not been completed because it lacks valid authentication credentials for the requested resource.
+  b) 405: Method Not Allowed, that the server knows the request method, but the target resource doesn't support this method.
+  c) 500: Internal Server Error, the server encountered an unexpected condition that prevented it from fulfilling the request.
 
