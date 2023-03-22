@@ -1,46 +1,89 @@
-# Section 2
+# Section 14
 
-## Software Testing as a Career Path
+## API Testing
 
-Software testing adalah proses verifikasi sistem komputer untuk menentukan apakah sistm tersebut memenuhi spesifikasi yang dibutuhkan dan menghasilkan produk yang diinginkan.Software testing bertujuan untuk mengidentifikasi apakah ada bug didalam software. Jika tidak ada masalah diluncurkan ke kond=sumen, jika ada bug diperbaiki kembali.
+Apa itu API Testing:
+API Testing berbeda dengan GUI. API Testing dilakukan dengan mengirim request dan mendapatkan request serta memverifikasi response yang benar dan error handling. dilakukan untuk mencegah adanya bug dan kerusakan. Alat pengujian API dapat digunakan untuk menguji kekuatan API terhadap serangan siber.
 
-Skill yang diperlukan untuk menjadi software tester:
+Proses API Testing:
+- Input parameter untuk API perlu direncanakan dan ditentukan sebelumnya
+- Jalankan test case dan bandingkan antara hasil yang diharapkan dengan hasil yang didapatkan.
 
-Non-Technical
-- Skill analisis, untuk membantu memecah tatanan sistem yang kompleks sehingga menjadi unit yang lebih sederhana untuk mendapatkan pemahaman yang kebuh baik dan mampu membuat test cases.
-- Komunikasi, untuk berkomunikasi dengan tim production, memberikan kritik dan menyampaikan hasil test dengan baik.
-- Time management dan organization skill, perlu untuk memahami apa yang perlu segera dikerjakan dan apa yang bisa dilakukan setelahnya. Mengerjakan pekerjaan dengan tepat waktu.
-- Great attitude.
-- Passion.
+Jenis API Testing:
+- Functionally, menguji functionalitas API.
+- Load test, menguji respon API dibawah beban kondisi normal dan tinggi (bagian dari Performance Testing). 
+- Security, menguji API dari external threats.
 
-Technical
-- Mengerti dasar perintah unix/linux
-- Memahami test management tools
-- Memahami tracking management tools
-- Memahami auto testing tools
+API Testing Tools: Postman, JMeter, frisby.js, REST-assured
 
-Apa yang dilakukan oleh seorang software tester:
-- Memahami kebutuhan dokumen untuk membuat sistem (flow bisnis, tools yang dipake, dll)
-- Membuat test case,serangkain rancangan tindakan yang digunakan untuk memverifikasi fitur
-- Menjalankan test case, uji kembali jika ada bug
-- Rapat bersama stakeholder yang lain
+Perbedaan API test dan Unit Test:
+a) Unit Test
+- Dilakukan oleh developer
+- Fungsi-fungsi terpisah
+- Developer bisa mengakses source code
+- Hanya dasar functionality yang ditest
+- Scopenya terbatas
+- Biasanya dilakukan sebelum build
 
-Career path setelah belajar quality engineer antara lain:
-1. Junior Quality Engineer (Fresher)
-2. Quality Engineer (1-2 years experience)
-3. Senior Quality Engineer (>3 years experience)
-4. Quality Engineer lead (5-6 years experience)
-5. Quality Engineer Manager (8-11 years experience)
+b) API Test
+- Dilakukan oleh tester
+- End to end
+- Tidak bisa mengakses source code
+- Hanya fungsi API saja
+- Semua functional issue
+- Scopenya lebih luas
+- Dilakukan setelah build
 
-Alternatif career jika ingin pindah bidang:
-- Performance tester
-- Penetration tester
-- System analyst
-- Scum master
+Proses API testing:
+- Specification Review
+- Specification development
+- Framework development
+- Test case development
+- Execution and report
 
-Bagaimana langkah-langkah jadi software tester:
-- Mempelajari software testing
-- Mempelajari test case management tools
-- Mempelajari automation testing
-- Apply job
+Test case for API testing:
+- Mendapatkan balikan (response) yang sesuai dengan inpUtan
+- Apakah memberikan balikan atau tidak
+- Apakah mengganggu fitur yang lain atau tidak
+- Update struktur data
+- Memodifikasi data yang ada
 
+Best practices of API testing:
+- Kelompokkan test case ke dalam beberapa kategori
+- Beri judul yang sesuai pada setiap test
+- Harus berhati-hati ketika melakukan test yang berhubungan dengan menghapus sesuatu
+- Memikirkan segala kemungkinan kombinasi input pada API
+
+Tipe output dalam sebuah API:
+- Umumnya berbentuk JSON atau XML
+- Status balikan (response) apakah Passed atau Fail
+- Memanggil fungsi API lain
+
+Tipe test yang biasa dilakukan di dalam API Testing:
+- Memverivikasi apakah kita mendapat respon dari API
+- Memverifikasi apakah hasil input/request sudah sesuai atau belum
+- Memverivikasi apakah data yang kita input/update sudah benar-benar berubah atau bertambah
+- Memverifikasi waktu response yang diberikan
+
+Tipe bug yang biasa ditemukan didalam API testing:
+- Gagal melakukan error handling pada keadaan tertentu
+- Kesulitan untuk tersambung dan mendapat respon API
+- Isu keamanan
+- Performance issue
+- Error atau warning yang tidak tepat
+- Struktur dari data respon tidak benar (JSON & XML)
+
+Advanteges & challenge of Testing API
+Advantages of Testing API
+- Efisiensi waktu
+- Bahasa yang independen
+- Mengurangi biaya testing
+- Mengurangi resiko
+
+Challenges of API Testing:
+- Kombinasi parameter, pemilihan parameter
+- Tidak ada GUI
+- Kita harus mengetahui terbelih dahulu parameter
+- Perlu mengetest setiap error handling dari setiap API
+
+API Testing Tools: Postman, frisby.js, Katalon
