@@ -3,8 +3,7 @@
 ## Pengenalan RESTful API
 
 Basic of API Testing
-1. API & REST API
-a. API
+
 API adalah singkatan dari "Applicatiom Programming Interface". API merupakan Apa sih API itu?
 API adalah singkatan dari Application Programming Interface. API sendiri merupakan antarmuka yang dapat menghubungkan satu aplikasi dengan aplikasi lainnya.- API memungkinkan komunikasi dan pertukaran data antara 2 atau lebih software/sistem yang terpisah.
 
