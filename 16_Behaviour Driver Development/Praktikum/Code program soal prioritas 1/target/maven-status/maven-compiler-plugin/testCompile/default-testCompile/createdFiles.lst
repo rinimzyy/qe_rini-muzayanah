@@ -1,0 +1,13 @@
+starter\logout\Logout.class
+starter\login\Login.class
+starter\stepdefinition\LogoutSteps.class
+starter\profile\Profile.class
+starter\network\Network.class
+starter\Notif\Notif.class
+starter\CucumberTestSuite.class
+starter\stepdefinition\NetworkSteps.class
+starter\stepdefinition\PostSteps.class
+starter\stepdefinition\ProfileSteps.class
+starter\post\Post.class
+starter\stepdefinition\LoginSteps.class
+starter\stepdefinition\NotifSteps.class
