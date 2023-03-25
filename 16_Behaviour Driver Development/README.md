@@ -3,6 +3,7 @@
 ## Behaviour Driven Development
 
 Introduction to Behaviour Driven Development
+
 TDD (Test DD) merupakan proses software development yang menerapkan penulisan test case sebelum developer menuliskan production codenya. Proses TDD perfokus pada komponen-kpmponen yang terdapat dalam sistem. Test case ditulis dengan menggunakan bahasa pemrograman
 
 BDD menerapkan konsep test first.Dalam BDD tim developer akan menuliskan berbagai skenario yang menjelaskan behaviour dari perspektif pengguna. Scenario dituliskan dengan format bahasa yang mudah dipahami seluruh skateholder dalam pengembangan sistem. BDD bertujuan untuk meningkatkan komunikasi dan kilaborasi antar seluruh skateholder tim bisnis maupun teknikal yang terlibat dalam pengembangan sistem.
