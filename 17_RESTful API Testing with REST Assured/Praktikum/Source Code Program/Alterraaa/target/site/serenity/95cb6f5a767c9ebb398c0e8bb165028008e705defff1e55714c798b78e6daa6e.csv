@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","PUT - As admin I have be able to add new data","SUCCESS","2023-04-01T20:46:12.4322416+07:00[Asia/Jakarta]","0.0","0.77"
+"User","POST - As admin I have to be able to add new data","SUCCESS","2023-04-01T20:46:17.826932+07:00[Asia/Jakarta]","0.0","0.87"
+"User","PUT - As admin I have to be able to update data","SUCCESS","2023-04-01T20:46:18.711565+07:00[Asia/Jakarta]","0.0","0.78"

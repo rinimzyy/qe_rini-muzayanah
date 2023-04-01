@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","POST - As admin I have be able to add new data","SUCCESS","2023-04-01T20:46:09.5837844+07:00[Asia/Jakarta]","0.0","2.82"
+"User","DELETE - As admin I have be able to add new data","SUCCESS","2023-04-01T20:46:13.2198434+07:00[Asia/Jakarta]","0.0","1.88"
+"User","GET ALL - As admin I have be able to get all user","SUCCESS","2023-04-01T20:46:15.1282014+07:00[Asia/Jakarta]","0.0","1.41"
+"User","GET - As admin I have be able to get user data by ID","SUCCESS","2023-04-01T20:46:16.5766623+07:00[Asia/Jakarta]","0.0","1.23"
+"User","DELETE - As admin I have be able to delete user data","SUCCESS","2023-04-01T20:46:19.5171021+07:00[Asia/Jakarta]","0.0","1.43"

@@ -1,0 +1,12 @@
+starter\usernegative\GetAllNeg.class
+starter\usernegative\PostNeg.class
+starter\user\DELETE.class
+starter\user\POST.class
+starter\usernegative\PutNeg.class
+starter\user\PUT.class
+starter\CucumberTestSuite.class
+starter\stepdefinition\UserSteps.class
+starter\usernegative\DelNeg.class
+starter\user\GET.class
+starter\user\GETALL.class
+starter\usernegative\GetNeg.class
