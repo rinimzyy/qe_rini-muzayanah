@@ -1,0 +1,11 @@
+.banner{
+    background: url("https://img.lovepik.com/background/20211022/large/lovepik-fantasy-planet-background-image_401912410.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20px;
+    color : #FFF;
+}     
+    img{
+    border-radius: 100%;
+    border: 10px solid #fff;
+    }

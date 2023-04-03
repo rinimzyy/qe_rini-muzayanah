@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <fieldset>
+        <h1>Welcome to Digital Library</h1>
+        <h4>Create a New Member</h4>
+        <p>
+            <label>Name </label>
+            <input type="text" name="username" placeholder="Your name" />
+        </p>
+        <p>
+            <label>Email </label>
+            <input type="password" name="password" placeholder="Email Address" />
+        </p>
+        <p>
+            <label>Password </label>
+            <input type="email" name="email" placeholder="Password" />
+        </p>
+        <p>
+            <label>Phone Number </label>
+            <input type="number" name="number" placeholder="Phone Number" />
+        </p>
+        <p>
+            <label>Address </label>
+            <textarea id="address" name="address" rows="10" cols="50" placeholder="Address">
+            </textarea>
+        </p>
+        <p>
+            <label>Gender </label>
+                <input id="ml" type="radio" name="gender">
+                <label for="ml">Male</label>
+                <input id="fml" type="radio" name="gender">
+                <label for="fml">Female</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Register" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
