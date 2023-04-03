@@ -38,59 +38,57 @@ Setiap halaman HTML sudah pasti mempunyai struktur dasar yang terdiri dari : tag
 
 Basic Tag HTML
 
-p, Tag untuk membuat paragraf
-br,	Memasukan satu baris putus
-hr,	Tag untuk membuat perubahan dasar kata didalam isi
-!--...-- ,	Tag untuk membuat komentar
+- p, Tag untuk membuat paragraf
+- br,	Memasukan satu baris putus
+- hr,	Tag untuk membuat perubahan dasar kata didalam isi
+- !--...-- ,	Tag untuk membuat komentar
 
 Form HTML
 
-form		Tag untuk membuat sebuah form HTML untuk input pengguna
-input, Tag untuk membuat sebuah kontrol input
-textarea, Tag untuk membuat sebuah kontrol input multibaris (text area)
-button, Tag untuk membuat sebuah tombol yang dapat diklik
-select,	Tag untuk membuat sebuah daftar drop-down
-optgroup,	Tag untuk membuat sebuah kelompok pilihan yang terkait dalam daftar drop-down
-option,	Tag untuk membuat pilihan dalam daftar drop-down
-label,		Tag untuk membuat sebuah label untuk sebuah elemen 
-fieldset,	Grup unsur terkait dalam bentuk
-legend,	Tag untuk membuat sebuah caption untuk sebuah elemen fieldset,figure, atau details
-datalist,	Menentukan daftar pilihan yang telah ditetapkan untuk kontrol input (tag baru HTML5)
-keygen,	Tag untuk membuat key-pair generator kolom input (tag baru HTML5)
-output,	Tag untuk membuat hasil penghitungan (tag baru HTML5)
+- form		Tag untuk membuat sebuah form HTML untuk input pengguna
+- input, Tag untuk membuat sebuah kontrol input
+- textarea, Tag untuk membuat sebuah kontrol input multibaris (text area)
+- button, Tag untuk membuat sebuah tombol yang dapat diklik
+- select,	Tag untuk membuat sebuah daftar drop-down
+- optgroup,	Tag untuk membuat sebuah kelompok pilihan yang terkait dalam daftar drop-down
+- option,	Tag untuk membuat pilihan dalam daftar drop-down
+- label,		Tag untuk membuat sebuah label untuk sebuah elemen 
+- fieldset,	Grup unsur terkait dalam bentuk
+- legend,	Tag untuk membuat sebuah caption untuk sebuah elemen fieldset,figure, atau details
+- datalist,	Menentukan daftar pilihan yang telah ditetapkan untuk kontrol input (tag baru HTML5)
+- keygen,	Tag untuk membuat key-pair generator kolom input (tag baru HTML5)
+- output,	Tag untuk membuat hasil penghitungan (tag baru HTML5)
 
 Images
-img,	Tag untuk membuat gambar
-map,	Tag untuk membuat gambar-peta
-area,	Tag untuk membuat area dalam gambar-peta
-canvas,	Digunakan untuk menggambar grafik, melalui scripting (JavaScript ) (tag baru HTML5)
-figcaption,	Tag untuk membuat sebuah caption untuk elemen figure (tag baru HTML5)
-figure,	Menentukan konten mandiri (tag baru HTML5)
+- img,	Tag untuk membuat gambar
+- map,	Tag untuk membuat gambar-peta
+- area,	Tag untuk membuat area dalam gambar-peta
+- canvas,	Digunakan untuk menggambar grafik, melalui scripting (JavaScript ) (tag baru HTML5)
+- figcaption,	Tag untuk membuat sebuah caption untuk elemen figure (tag baru HTML5)
+- figure,	Menentukan konten mandiri (tag baru HTML5)
 
 Links
-
-a,	Tag untuk membuat hyperlink
-link,	Tag untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
-nav,	Tag untuk membuat navigasi link (tag baru HTML5)
+- a,	Tag untuk membuat hyperlink
+- link,	Tag untuk membuat hubungan antara dokumen dan sumber daya eksternal (paling sering digunakan untuk link ke style sheet)
+- nav,	Tag untuk membuat navigasi link (tag baru HTML5)
 
 List
-
-ul, Tag untuk membuat daftar dengan unordered list
-ol,	Tag untuk membuat daftar ordered list
-li,	Tag untuk membuat sebuah item daftar
-dir,	Tag untuk membuat sebuah daftar direktori (tidak disupport lagi di HTML5)
-dl,	Tag untuk membuat sebuah daftar definisi
-dt,	Tag untuk membuat istilah (item) dalam daftar definisi
-dd,	Defines a description of an item in a definition list
-menu,	Tag untuk membuat deskripsi dari item dalam daftar definisi
-command,	Tag untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta (tag baru HTML5)
+- ul, Tag untuk membuat daftar dengan unordered list
+- ol,	Tag untuk membuat daftar ordered list
+- li,	Tag untuk membuat sebuah item daftar
+- dir,	Tag untuk membuat sebuah daftar direktori (tidak disupport lagi di HTML5)
+- dl,	Tag untuk membuat sebuah daftar definisi
+- dt,	Tag untuk membuat istilah (item) dalam daftar definisi
+- dd,	Defines a description of an item in a definition list
+- menu,	Tag untuk membuat deskripsi dari item dalam daftar definisi
+- command,	Tag untuk membuat sebuah tombol perintah bahwa seorang pengguna dapat meminta (tag baru HTML5)
 
 Tables
-table, Tag untuk membuat tabel
-caption,	Tag untuk membuat sebuah caption tabel
-th,	Tag untuk membuat sebuah sel header tabel
-tr,	Tag untuk membuat baris dalam sebuah tabel
-td,	Tag untuk membuat sel dalam sebuah tabel
+- table, Tag untuk membuat tabel
+- caption,	Tag untuk membuat sebuah caption tabel
+- th,	Tag untuk membuat sebuah sel header tabel
+- tr,	Tag untuk membuat baris dalam sebuah tabel
+- td,	Tag untuk membuat sel dalam sebuah tabel
 
 ## CSS
 CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
