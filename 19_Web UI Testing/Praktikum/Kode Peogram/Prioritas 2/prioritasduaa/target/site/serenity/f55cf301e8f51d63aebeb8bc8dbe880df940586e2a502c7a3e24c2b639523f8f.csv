@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"login","As user i have be able to success login","SUCCESS","2023-04-06T14:02:42.992419+07:00[Asia/Jakarta]","0.0","32.48"
+"choose product","As user i have be able to choose product","SUCCESS","2023-04-06T14:03:16.1668427+07:00[Asia/Jakarta]","0.0","12.48"
+"choose product","As user i have be able to success login","SUCCESS","2023-04-06T14:03:29.8634988+07:00[Asia/Jakarta]","0.0","11.1"
+"product payment","As user i have be able to do a payment","SUCCESS","2023-04-06T14:03:41.4031826+07:00[Asia/Jakarta]","0.0","29.08"
