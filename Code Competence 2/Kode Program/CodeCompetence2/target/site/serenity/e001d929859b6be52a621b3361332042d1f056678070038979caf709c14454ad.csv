@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","LOGIN - As admin I have be able to login","SUCCESS","2023-04-15T22:00:18.3998169+07:00[Asia/Jakarta]","0.0","1.35"
+"User","USER - GET detail data user","SUCCESS","2023-04-15T22:00:36.7691643+07:00[Asia/Jakarta]","0.0","1.03"
+"User","USER - GET ALL detail data user","SUCCESS","2023-04-15T22:00:38.6250674+07:00[Asia/Jakarta]","0.0","1.1"
+"User","USER - GET limit result with valid param","SUCCESS","2023-04-15T22:00:40.2534164+07:00[Asia/Jakarta]","0.0","1.02"
+"User","USER - GET limit result with invalid param","SUCCESS","2023-04-15T22:00:41.3021426+07:00[Asia/Jakarta]","0.0","1.19"
+"User","USER - GET result user in descending sort","SUCCESS","2023-04-15T22:00:42.506739+07:00[Asia/Jakarta]","0.0","1.31"
+"User","USER - USER PUT existing user","SUCCESS","2023-04-15T22:00:45.3852988+07:00[Asia/Jakarta]","0.0","1.01"

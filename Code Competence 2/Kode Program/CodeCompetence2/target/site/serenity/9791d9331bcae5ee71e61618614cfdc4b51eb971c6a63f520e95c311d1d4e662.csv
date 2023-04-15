@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Cart","CART - GET detail data cart","SUCCESS","2023-04-15T21:59:54.9150733+07:00[Asia/Jakarta]","0.0","7.22"
+"Cart","CART - GET result in descending sort","SUCCESS","2023-04-15T22:00:03.087884+07:00[Asia/Jakarta]","0.0","1.03"
+"Cart","CART - GET ALL detail data cart","SUCCESS","2023-04-15T22:00:04.15547+07:00[Asia/Jakarta]","0.0","1.15"
+"Cart","CART - GET limit result cart with invalid param","SUCCESS","2023-04-15T22:00:06.2267326+07:00[Asia/Jakarta]","0.0","1.07"
+"Cart","CART - GET result cart in descending sort","SUCCESS","2023-04-15T22:00:07.3486617+07:00[Asia/Jakarta]","0.0","1.17"
+"Cart","CART - GET ALL detail data user cart with invalid url","SUCCESS","2023-04-15T22:00:08.5419916+07:00[Asia/Jakarta]","0.0","2.28"
+"Cart","CART - PUT existing cart with invalid data","SUCCESS","2023-04-15T22:00:15.7547784+07:00[Asia/Jakarta]","0.0","1.02"

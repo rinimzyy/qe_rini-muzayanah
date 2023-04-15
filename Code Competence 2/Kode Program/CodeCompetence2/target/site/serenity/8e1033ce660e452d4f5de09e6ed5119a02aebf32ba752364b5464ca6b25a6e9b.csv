@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","USER - GET a single user with invalid endpoints","SUCCESS","2023-04-15T22:00:37.81573+07:00[Asia/Jakarta]","0.0","0.79"
+"User","USER - GET ALL detail data user with invalid url","SUCCESS","2023-04-15T22:00:39.7394344+07:00[Asia/Jakarta]","0.0","0.5"
+"User","USER - USER POST new product with valid data","SUCCESS","2023-04-15T22:00:43.8340116+07:00[Asia/Jakarta]","0.0","0.68"
+"User","USER - USER POST new product with invalid data","SUCCESS","2023-04-15T22:00:44.5356584+07:00[Asia/Jakarta]","0.0","0.83"
+"User","USER - PUT existing user with invalid endpoints","SUCCESS","2023-04-15T22:00:46.410729+07:00[Asia/Jakarta]","0.0","0.5"
+"User","USER - DELETE existing user with valid id","SUCCESS","2023-04-15T22:00:46.9276551+07:00[Asia/Jakarta]","0.0","0.96"
+"User","USER - DELETE existing user with invalid id","SUCCESS","2023-04-15T22:00:47.901216+07:00[Asia/Jakarta]","0.0","0.48"

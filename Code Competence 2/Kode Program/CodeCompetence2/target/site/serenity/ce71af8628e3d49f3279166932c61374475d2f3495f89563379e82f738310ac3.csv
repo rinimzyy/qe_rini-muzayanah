@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product","PRODUCT - GET limit result product with valid param","SUCCESS","2023-04-15T22:00:22.5038501+07:00[Asia/Jakarta]","0.0","5.65"
+"Product","PRODUCT - GET ALL categories product","SUCCESS","2023-04-15T22:00:30.1674824+07:00[Asia/Jakarta]","0.0","1.05"
+"Product","PRODUCT - GET in categories product","SUCCESS","2023-04-15T22:00:31.2359413+07:00[Asia/Jakarta]","0.0","1.44"
+"Product","PRODUCT - DELETE existing product with valid id","SUCCESS","2023-04-15T22:00:35.1362188+07:00[Asia/Jakarta]","0.0","1.12"
