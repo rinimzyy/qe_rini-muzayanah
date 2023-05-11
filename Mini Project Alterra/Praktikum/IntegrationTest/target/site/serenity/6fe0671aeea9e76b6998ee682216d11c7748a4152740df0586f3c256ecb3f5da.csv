@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Integration","WB026 - User register, login, logout","SUCCESS","2023-05-11T10:46:23.780414+07:00[Asia/Jakarta]","0.0","11.95"
-"Integration","WB027 - User register, login, see detail product, assign rating","SUCCESS","2023-05-11T10:46:36.2981581+07:00[Asia/Jakarta]","0.0","109.15"
-"Integration","WB028 - User register, login, add to cart, order, view transaction history","SUCCESS","2023-05-11T10:48:26.5636358+07:00[Asia/Jakarta]","0.0","131.47"
-"Integration","WB029 - User register, login, select categories, clear categories","FAILURE","2023-05-11T10:50:43.6861548+07:00[Asia/Jakarta]","0.0","15.61"
-"Integration","WB030 - User register, login, see detail product, assign rating, logout","SUCCESS","2023-05-11T10:51:00.6906566+07:00[Asia/Jakarta]","0.0","117.13"
-"Integration","WB031 - User register, login, add to cart, order, view transaction history, logout","SUCCESS","2023-05-11T10:52:58.9368393+07:00[Asia/Jakarta]","0.0","155.02"
