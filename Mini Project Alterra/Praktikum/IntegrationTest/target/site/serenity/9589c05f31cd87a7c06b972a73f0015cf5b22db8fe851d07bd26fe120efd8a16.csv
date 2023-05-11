@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Integration","WB028 - User register, login, add to cart, order, view transaction history","SUCCESS","2023-05-11T10:48:26.5636358+07:00[Asia/Jakarta]","0.0","131.47"
+"Integration","WB031 - User register, login, add to cart, order, view transaction history, logout","SUCCESS","2023-05-11T10:52:58.9368393+07:00[Asia/Jakarta]","0.0","155.02"

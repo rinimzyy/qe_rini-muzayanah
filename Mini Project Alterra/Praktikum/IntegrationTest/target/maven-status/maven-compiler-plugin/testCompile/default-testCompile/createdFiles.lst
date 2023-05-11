@@ -1,0 +1,8 @@
+starter\CucumberTestSuite.class
+starter\Integration\Product.class
+starter\stepdefinition\IntegrationSteps.class
+starter\Integration\Login.class
+starter\Integration\Transactions.class
+starter\Integration\Logout.class
+starter\Integration\Integration.class
+starter\Integration\Register.class

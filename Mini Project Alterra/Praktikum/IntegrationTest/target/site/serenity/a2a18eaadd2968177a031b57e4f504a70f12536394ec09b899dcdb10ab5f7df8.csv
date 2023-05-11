@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Integration","WB027 - User register, login, see detail product, assign rating","SUCCESS","2023-05-11T10:46:36.2981581+07:00[Asia/Jakarta]","0.0","109.15"
+"Integration","WB030 - User register, login, see detail product, assign rating, logout","SUCCESS","2023-05-11T10:51:00.6906566+07:00[Asia/Jakarta]","0.0","117.13"

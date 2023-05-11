@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Integration","WB026 - User register, login, logout","SUCCESS","2023-05-11T10:46:23.780414+07:00[Asia/Jakarta]","0.0","11.95"
+"Integration","WB029 - User register, login, select categories, clear categories","FAILURE","2023-05-11T10:50:43.6861548+07:00[Asia/Jakarta]","0.0","15.61"
